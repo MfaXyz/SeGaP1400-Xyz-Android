@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 46f269b3d1c839d408735f57bff82d1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 976145096843563578
+    second: PikPng.com_loading-png_985193_0
+  - first:
+      213: 5286721503191554911
+    second: PikPng.com_loading-png_985193_1
+  - first:
+      213: -6335664366981328643
+    second: PikPng.com_loading-png_985193_2
+  - first:
+      213: -8778694624798812903
+    second: PikPng.com_loading-png_985193_3
+  - first:
+      213: -3777635726728226861
+    second: PikPng.com_loading-png_985193_4
+  - first:
+      213: 5832573623973203553
+    second: PikPng.com_loading-png_985193_5
+  - first:
+      213: -2136943729746125384
+    second: PikPng.com_loading-png_985193_6
+  - first:
+      213: 2887155197209010736
+    second: PikPng.com_loading-png_985193_7
+  - first:
+      213: -8817023689557372949
+    second: PikPng.com_loading-png_985193_8
+  - first:
+      213: -7464652033813773874
+    second: PikPng.com_loading-png_985193_9
+  - first:
+      213: -4965545444247510156
+    second: PikPng.com_loading-png_985193_10
+  - first:
+      213: -7614854673816805555
+    second: PikPng.com_loading-png_985193_11
+  - first:
+      213: -8202187148248681619
+    second: PikPng.com_loading-png_985193_12
+  - first:
+      213: -1748930020485041524
+    second: PikPng.com_loading-png_985193_13
+  - first:
+      213: 3013561052704263693
+    second: PikPng.com_loading-png_985193_14
+  - first:
+      213: -774453711135484057
+    second: PikPng.com_loading-png_985193_15
+  - first:
+      213: -216850463123275534
+    second: PikPng.com_loading-png_985193_16
+  - first:
+      213: -2670374889631772229
+    second: PikPng.com_loading-png_985193_17
+  - first:
+      213: -5085269024425697052
+    second: PikPng.com_loading-png_985193_18
+  - first:
+      213: -381519159746812550
+    second: PikPng.com_loading-png_985193_19
+  - first:
+      213: 8064819577733065531
+    second: PikPng.com_loading-png_985193_20
+  - first:
+      213: -2157725070484305789
+    second: PikPng.com_loading-png_985193_21
+  - first:
+      213: -5549138422896792613
+    second: PikPng.com_loading-png_985193_22
+  - first:
+      213: 2081016105208661421
+    second: PikPng.com_loading-png_985193_23
+  - first:
+      213: 6645535142897582780
+    second: PikPng.com_loading-png_985193_24
+  - first:
+      213: 7792508248580531659
+    second: PikPng.com_loading-png_985193_25
+  - first:
+      213: -2497167524294624260
+    second: PikPng.com_loading-png_985193_26
+  - first:
+      213: 7849155039533797612
+    second: PikPng.com_loading-png_985193_27
+  - first:
+      213: 5473268701759143228
+    second: PikPng.com_loading-png_985193_28
+  - first:
+      213: -5196808393407153482
+    second: PikPng.com_loading-png_985193_29
+  - first:
+      213: -8730225728239382273
+    second: PikPng.com_loading-png_985193_30
+  - first:
+      213: -5786951384069548927
+    second: PikPng.com_loading-png_985193_31
+  - first:
+      213: 2601119162110338999
+    second: PikPng.com_loading-png_985193_32
+  - first:
+      213: -7339498604337130397
+    second: PikPng.com_loading-png_985193_33
+  - first:
+      213: 7479601178430532269
+    second: PikPng.com_loading-png_985193_34
+  - first:
+      213: 8252709340243060669
+    second: PikPng.com_loading-png_985193_35
+  - first:
+      213: -7644244848788263100
+    second: PikPng.com_loading-png_985193_36
+  - first:
+      213: -6910743404148801542
+    second: PikPng.com_loading-png_985193_37
+  - first:
+      213: 4350694898035293287
+    second: PikPng.com_loading-png_985193_38
+  - first:
+      213: -523465593003979630
+    second: PikPng.com_loading-png_985193_39
+  - first:
+      213: 1892078967926972354
+    second: PikPng.com_loading-png_985193_40
+  - first:
+      213: -2410429589823375166
+    second: PikPng.com_loading-png_985193_41
+  - first:
+      213: 3032188474173458999
+    second: PikPng.com_loading-png_985193_42
+  - first:
+      213: -8869686477642242823
+    second: PikPng.com_loading-png_985193_43
+  - first:
+      213: 5993541934238749873
+    second: PikPng.com_loading-png_985193_44
+  - first:
+      213: 7406138575475950616
+    second: PikPng.com_loading-png_985193_45
+  - first:
+      213: -4976298655181867662
+    second: PikPng.com_loading-png_985193_46
+  - first:
+      213: -3254039117343470920
+    second: PikPng.com_loading-png_985193_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 32
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3299923bc6fb8d00800000000000000
+      internalID: 976145096843563578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bd62862353e5940800000000000000
+      internalID: 5286721503191554911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_2
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df05af573d23318a0800000000000000
+      internalID: -6335664366981328643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155c3110cfcb2680800000000000000
+      internalID: -8778694624798812903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d71a814254239bc0800000000000000
+      internalID: -3777635726728226861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e4c370fc671f050800000000000000
+      internalID: 5832573623973203553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_6
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bddb73fffc0852e0800000000000000
+      internalID: -2136943729746125384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_7
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032e015ea5c311820800000000000000
+      internalID: 2887155197209010736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_8
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef8abf3ba3a3a580800000000000000
+      internalID: -8817023689557372949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_9
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec102a0568a386890800000000000000
+      internalID: -7464652033813773874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_10
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473619f1ab6d61bb0800000000000000
+      internalID: -4965545444247510156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_11
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 564
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1de6f40a925690800000000000000
+      internalID: -7614854673816805555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63fc57ee3afb2e80800000000000000
+      internalID: -8202187148248681619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_13
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82f8ff996d8ab7e0800000000000000
+      internalID: -1748930020485041524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_14
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ec3679fc152d920800000000000000
+      internalID: 3013561052704263693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76759c4f3769045f0800000000000000
+      internalID: -774453711135484057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_16
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0882817a79dfcf0800000000000000
+      internalID: -216850463123275534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb11066af2ce0fad0800000000000000
+      internalID: -2670374889631772229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_18
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02fc3e3ce7d69b0800000000000000
+      internalID: -5085269024425697052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_19
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a752948785294baf0800000000000000
+      internalID: -381519159746812550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_20
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b256c3daefbef60800000000000000
+      internalID: 8064819577733065531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_21
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38804d20b783e02e0800000000000000
+      internalID: -2157725070484305789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_22
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbe3c541008df2b0800000000000000
+      internalID: -5549138422896792613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_23
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 376
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da544da3f1141ec10800000000000000
+      internalID: 2081016105208661421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb209ceb00fa93c50800000000000000
+      internalID: 6645535142897582780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5a1f137fc842c60800000000000000
+      internalID: 7792508248580531659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_26
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbf6c10e57485dd0800000000000000
+      internalID: -2497167524294624260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_27
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0116efbeccdec60800000000000000
+      internalID: 7849155039533797612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_28
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dfd98b2e4f4fb40800000000000000
+      internalID: 5473268701759143228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_29
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bab231dc4a31e7b0800000000000000
+      internalID: -5196808393407153482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_30
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0d05374f108d680800000000000000
+      internalID: -8730225728239382273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_31
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1845414706e90bfa0800000000000000
+      internalID: -5786951384069548927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_32
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b76c0cb818091420800000000000000
+      internalID: 2601119162110338999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_33
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364920bd7ecd42a90800000000000000
+      internalID: -7339498604337130397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_34
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daae1f5a4a1ecc760800000000000000
+      internalID: 7479601178430532269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_35
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 188
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db76cb39b63878270800000000000000
+      internalID: 8252709340243060669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44faddb9fcf2ae590800000000000000
+      internalID: -7644244848788263100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff36d51d7b1810a0800000000000000
+      internalID: -6910743404148801542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_38
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c7f7375f5c06c30800000000000000
+      internalID: 4350694898035293287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_39
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ccbdc01d64cb8f0800000000000000
+      internalID: -523465593003979630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_40
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf5642fbc3024a10800000000000000
+      internalID: 1892078967926972354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_41
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8bc7e1f0f6c8ed0800000000000000
+      internalID: -2410429589823375166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_42
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a842f1a5f741a20800000000000000
+      internalID: 3032188474173458999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_43
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f46c07642b88e480800000000000000
+      internalID: -8869686477642242823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_44
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b455b052a65d2350800000000000000
+      internalID: 5993541934238749873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_45
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814cf848bc3e7c660800000000000000
+      internalID: 7406138575475950616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_46
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27571a91db2a0fab0800000000000000
+      internalID: -4976298655181867662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikPng.com_loading-png_985193_47
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba4485d9a457d2d0800000000000000
+      internalID: -3254039117343470920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 89ec5e8b6561699418af95cf55dbf5ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

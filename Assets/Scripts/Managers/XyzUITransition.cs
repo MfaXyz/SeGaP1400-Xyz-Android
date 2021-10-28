@@ -77,11 +77,7 @@ public class XyzUITransition : MonoBehaviour
             StartCoroutine(DelayToStart());
         }
     }
-
-    public void ReversePoints()
-    {
-        (xPosition, yPosition) = (yPosition, xPosition);
-    }
+    
     private IEnumerator DelayToStart()
     {
         yield return new WaitForSeconds(delayToStart);

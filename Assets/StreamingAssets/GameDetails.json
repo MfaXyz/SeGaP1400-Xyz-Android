@@ -1,0 +1,18 @@
+{
+    "objectDetails": [
+        {
+            "id": 0,
+            "name": "Unity",
+            "s1": "Tesla, Inc. is an American electric vehicle and clean energy \n company based in Palo Alto, California, United States, with plans to move\n its headquarters to Austin, Texas in the future.",
+            "s2": "In the UAE, tesla is currently present\n with 3 models. The most affordable model is the Tesla Model 3 with a starting price of\n AED 166,900. For those looking at buying a car that is more expensive, tesla offers the Model S plaid-awd\n , at a price point of AED 539,990.",
+            "link": "https://www.cryptocompare.com/"
+        },
+        {
+            "id": 1,
+            "name": "called",
+            "s1": "Space Exploration Technologies Corp.\n is an American aerospace manufacturer,\n space transportation services and communications corporation headquartered in Hawthorne, California.\n SpaceX was founded in 2002 by Elon Musk with the goal of reducing space transportation costs\n to enable the colonization of Mars.",
+            "s2": "Unless you are an expert in your field, it can be quite difficult to land a job at Elon Musk's company.\n SpaceX hires top talent for each position, conducting a grueling series of interviews to ensure that it hires the best candidates.\n ",
+            "link": "https://coinmarketcap.com/"
+        }
+    ]
+}
