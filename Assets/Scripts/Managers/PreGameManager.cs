@@ -12,16 +12,30 @@ public class PreGameManager : MonoBehaviour
     [Header("Values")]
     public Image image;
     public Sprite[] textures;
-
+    public int numberOfSelectedGame;
+    public bool isLearned;
+    
     [Header("Objects")] 
     public Text[] gameDetailObjects;
     private string _url;
     public GameObject gamePlayPage;
+    public GameObject tutorialPage;
 
+    private void Awake()
+    {
+        var a = PlayerPrefs.GetInt("sound");
+
+        isLearned = a == 0;
+    }
+
+    public void ChangeLearn()
+    {
+        isLearned = !isLearned;
+    }
     public void SelectGame(int number)
     {
         var dataAsJson = File.ReadAllText(Application.streamingAssetsPath + "/GameDetails.json");
-
+        numberOfSelectedGame = number;
         var details = JsonUtility.FromJson<Details>(dataAsJson);
 
         gameDetailObjects[0].text = details.objectDetails[number].name;
@@ -37,12 +51,27 @@ public class PreGameManager : MonoBehaviour
 
     public void StartGame()
     {
-        StartCoroutine(StartSchedule());
+        if (isLearned)
+        {
+            StartCoroutine(StartSchedule());
+        }
+        else
+        {
+            Debug.Log("Not learned still");
+        }
     }
-
     private IEnumerator StartSchedule()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(1);
+        tutorialPage.SetActive(true);
+    }
+    public void StartGamePlay()
+    {
+        StartCoroutine(StartScheduleGamePlay());
+    }
+    private IEnumerator StartScheduleGamePlay()
+    {
+        yield return new WaitForSeconds(0.5f);
         gamePlayPage.SetActive(true);
     }
 }
