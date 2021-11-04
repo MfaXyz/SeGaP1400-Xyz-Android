@@ -9,6 +9,10 @@ using UnityEngine.UI;
 
 public class PreGameManager : MonoBehaviour
 {
+    [Header("PlayerPrefs")] 
+    public int topScore;
+    public int sumScore;
+    
     [Header("Values")]
     public Image image;
     public Sprite[] textures;
@@ -24,8 +28,10 @@ public class PreGameManager : MonoBehaviour
     private void Awake()
     {
         var a = PlayerPrefs.GetInt("sound");
-
         isLearned = a == 0;
+
+        topScore = PlayerPrefs.GetInt("topScore");
+        sumScore = PlayerPrefs.GetInt("sumScore");
     }
 
     public void ChangeLearn()

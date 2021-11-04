@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     [Header("Components")] 
     public AudioSource[] sources;
     public Image[] images;
+    public AudioSource musicSource;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class AudioManager : MonoBehaviour
         {
             images[0].color = new Color(1, 1, 1, 0.5f);
             images[2].color = new Color(1, 1, 1, 0.5f);
+            musicSource.Stop();
         }
 
         if (!sound)
@@ -60,11 +62,13 @@ public class AudioManager : MonoBehaviour
         {
             images[0].color = new Color(1, 1, 1, 0.5f);
             images[2].color = new Color(1, 1, 1, 0.5f);
+            musicSource.Pause();
         }
         else
         {
             images[0].color = Color.white;
             images[2].color = Color.white;
+            musicSource.Play();
         }
 
         if (!sound)
