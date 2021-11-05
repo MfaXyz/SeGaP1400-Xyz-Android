@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using RTLTMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -9,13 +10,15 @@ public class MotivationGenerator : MonoBehaviour
 {
     [Header("Values")] 
     public string[] motivationTexts;
+    public int randomValue;
 
     [Header("Components")]
-    private Text _motivationText;
+    private RTLTextMeshPro _motivationText;
 
     private void Awake()
     {
-        _motivationText = GetComponent<Text>();
-        _motivationText.text = motivationTexts[Random.Range(0, motivationTexts.Length)];
+        randomValue = Random.Range(0, motivationTexts.Length);
+        _motivationText = GetComponent<RTLTextMeshPro>();
+        _motivationText.text = motivationTexts[randomValue];
     }
 }

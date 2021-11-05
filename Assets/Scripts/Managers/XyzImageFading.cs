@@ -77,29 +77,4 @@ public class XyzImageFading : MonoBehaviour
         _valueOfFading = 0;
         _delay = false;
     }
-    /*public void StartTransition(string newPos)
-    {
-        if (!worker)
-        {
-            _valueOfFading = 0;
-            worker = true;
-            if (newPos == "")
-            {
-                (xColor, yColor) = (yColor, xColor);
-                hideAfterDone = false;
-            }else if (newPos == "D")
-            {
-                (xColor, yColor) = (yColor, xColor);
-                hideAfterDone = true;
-            }
-
-            if (setStartColor)
-            {
-                image.color = xColor;
-            }
-            StartCoroutine(DelayToStart());
-        }
-    }*/
-
-
 }

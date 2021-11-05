@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using RTLTMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +17,7 @@ public class TutorialManager : MonoBehaviour
     [Header("Components")]
     public PreGameManager preGameManager;
     public Image[] images;
-    public Text[] texts;
+    public RTLTextMeshPro[] texts;
     public Text slideNumber;
     public int currentSlide;
     public Button[] nextBack;

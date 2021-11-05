@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using RTLTMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,7 +17,7 @@ public class MiniGame1 : MonoBehaviour
     public Text scoreText;
     public Button[] btns;
     public string[] waveTexts;
-    public Text waveText;
+    public RTLTextMeshPro waveText;
     public GameObject[] wavesObj;
 
     [Header("EndPageV&C")] 
@@ -35,7 +36,7 @@ public class MiniGame1 : MonoBehaviour
     public float cacheTime;
     public bool timeOver;
     [Header("Score")]
-    public int scoreNumber;
+    public float scoreNumber;
     public int scoreDValues;
     public bool decreaseTime;
     
@@ -46,7 +47,7 @@ public class MiniGame1 : MonoBehaviour
     //public int p23Value;
     public int[] cycleTime1;
     public int cycleIndex1;
-    
+
 
     private void FixedUpdate()
     {
@@ -84,6 +85,12 @@ public class MiniGame1 : MonoBehaviour
                 case 3:
                     GoToHealth(false, false);
                     break;
+                case 4:
+                    GoToHealth(false, false);
+                    break;
+                case 5:
+                    GoToHealth(false, false);
+                    break;
             }
         }
     }
@@ -114,14 +121,14 @@ public class MiniGame1 : MonoBehaviour
     {
         if (preGameManager.topScore < scoreNumber)
         {
-            PlayerPrefs.SetInt("topScore", scoreNumber);
+            PlayerPrefs.SetFloat("topScore", scoreNumber);
             preGameManager.topScore = scoreNumber;
         }
-        PlayerPrefs.SetInt("sumScore",preGameManager.sumScore + scoreNumber);
+        PlayerPrefs.SetFloat("sumScore",preGameManager.sumScore + scoreNumber);
+        preGameManager.sumScore += scoreNumber; 
         
         topScore.text = preGameManager.topScore.ToString();
         showScore.text = scoreNumber.ToString();
-        enabled = false;
         endGamePage.SetActive(true);
         game1Page.SetActive(false);
         
@@ -129,6 +136,11 @@ public class MiniGame1 : MonoBehaviour
 
     private void OnEnable()
     {
+        waveText.text = waveTexts[0];
+        scoreNumber = 0;
+        waveNumber = 0;
+        cycleIndex1 = 0;
+        
         healthNumber = firstHealthNumber;
         healthText.text = healthNumber.ToString(CultureInfo.InvariantCulture) + " :ﯽﺘﻣﻼﺳ";
         time = cycleTime1[cycleIndex1];
@@ -165,14 +177,14 @@ public class MiniGame1 : MonoBehaviour
         switch (waveNumber)
         {
             case 0:
-                scoreNumber += scoreDValues;
+                scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
                 break;
             case 1:
                 if (p1Value == 2)
                 {
                     if (zeroOne)
                     {
-                        scoreNumber += scoreDValues;
+                        scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
                     }
                     else
                     {
@@ -188,37 +200,62 @@ public class MiniGame1 : MonoBehaviour
                 }
                 else
                 {
-                    scoreNumber += scoreDValues;
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
                 }
                 break;
             case 2:
                 var x = zeroOne ? 1 : 0;
                 if (x == leftRightLights)
                 {
-                    scoreNumber += scoreDValues;
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
                 }
                 else
                 {
                     healthNumber -= 1;
                 }
                 imageLights[1].sprite = pictureLights[0];
-                imageLights[2].sprite = pictureLights[1];
+                imageLights[2].sprite = pictureLights[0];
                 break;
             case 3:
                 var y = zeroOne ? 0 : 1;
                 if (y == leftRightLights)
                 {
-                    scoreNumber += scoreDValues;
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
                 }
                 else
                 {
                     healthNumber -= 1;
                 }
                 imageLights[1].sprite = pictureLights[0];
-                imageLights[2].sprite = pictureLights[1];
+                imageLights[2].sprite = pictureLights[0];
                 break;
             case 4:
+                var z = zeroOne ? 1 : 0;
                 
+                if (z == leftRightLights)
+                {
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                }
+                else
+                {
+                    healthNumber -= 1;
+                }
+                imageLights[1].sprite = pictureLights[0];
+                imageLights[2].sprite = pictureLights[0];
+                break;
+            case 5:
+                var w = zeroOne ? 0 : 1;
+                
+                if (w == leftRightLights)
+                {
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
+                }
+                else
+                {
+                    healthNumber -= 1;
+                }
+                imageLights[1].sprite = pictureLights[0];
+                imageLights[2].sprite = pictureLights[0];
                 break;
         }
         healthText.text = healthNumber.ToString(CultureInfo.InvariantCulture) + " :ﯽﺘﻣﻼﺳ";
@@ -229,7 +266,6 @@ public class MiniGame1 : MonoBehaviour
             t.sprite = pictureLights[p1Value];
         }
         
-
         yield return new WaitForSeconds(Random.Range(1, 3));
         timeOver = false;
         foreach (var t in btns)
@@ -243,8 +279,15 @@ public class MiniGame1 : MonoBehaviour
         }else
         {
             waveNumber++;
-            waveText.text = waveTexts[waveNumber];
             cycleIndex1 = 0;
+            if (waveNumber == 6)
+            {
+                EndGame();
+            }
+            else
+            {
+                waveText.text = waveTexts[waveNumber];
+            }
         }
 
         switch (waveNumber)
@@ -260,11 +303,16 @@ public class MiniGame1 : MonoBehaviour
                 wavesObj[1].SetActive(true);
                 break;
             case 3:
-                wavesObj[0].SetActive(false);
-                wavesObj[1].SetActive(true);
+                //nothing
+                break;
+            case 4:
+                //nothing
+                break;
+            case 5:
+                //cook your mom
                 break;
         }
-        if (waveNumber == 2 || waveNumber ==3)
+        if (waveNumber == 2 || waveNumber ==3 )
         {
             leftRightLights = Random.Range(0, 2);
             if (leftRightLights == 0)
@@ -277,9 +325,24 @@ public class MiniGame1 : MonoBehaviour
                 imageLights[1].sprite = pictureLights[0];
                 imageLights[2].sprite = pictureLights[1];
             }
+        }else if (waveNumber == 4 || waveNumber == 5)
+        {
+            leftRightLights = Random.Range(0, 2);
+            if (leftRightLights == 0)
+            {
+                imageLights[1].sprite = pictureLights[1];
+                imageLights[2].sprite = pictureLights[2];
+            }
+            else
+            {
+                imageLights[1].sprite = pictureLights[2];
+                imageLights[2].sprite = pictureLights[1];
+            }
         }
         imageLights[0].sprite = pictureLights[p1Value];
         time = cycleTime1[cycleIndex1];
         decreaseTime = true;
     }
+
+
 }

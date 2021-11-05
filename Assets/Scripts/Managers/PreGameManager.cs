@@ -3,6 +3,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters.Binary;
+using RTLTMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -10,8 +11,9 @@ using UnityEngine.UI;
 public class PreGameManager : MonoBehaviour
 {
     [Header("PlayerPrefs")] 
-    public int topScore;
-    public int sumScore;
+    public float topScore;
+    public float topScore2;
+    public float sumScore;
     
     [Header("Values")]
     public Image image;
@@ -20,9 +22,10 @@ public class PreGameManager : MonoBehaviour
     public bool isLearned;
     
     [Header("Objects")] 
-    public Text[] gameDetailObjects;
+    public RTLTextMeshPro[] gameDetailObjects;
     private string _url;
     public GameObject gamePlayPage;
+    public GameObject[] gamePages;
     public GameObject tutorialPage;
 
     private void Awake()
@@ -30,19 +33,22 @@ public class PreGameManager : MonoBehaviour
         var a = PlayerPrefs.GetInt("sound");
         isLearned = a == 0;
 
-        topScore = PlayerPrefs.GetInt("topScore");
-        sumScore = PlayerPrefs.GetInt("sumScore");
+        topScore = PlayerPrefs.GetFloat("topScore");
+        sumScore = PlayerPrefs.GetFloat("sumScore");
     }
-
     public void ChangeLearn()
     {
         isLearned = !isLearned;
     }
+
+    private string _jsonString;
     public void SelectGame(int number)
     {
-        var dataAsJson = File.ReadAllText(Application.streamingAssetsPath + "/GameDetails.json");
+        var dataAsJson = Resources.Load("GameDetails");
+        var reader = dataAsJson.ToString();
+        
         numberOfSelectedGame = number;
-        var details = JsonUtility.FromJson<Details>(dataAsJson);
+        var details = JsonUtility.FromJson<Details>(reader);
 
         gameDetailObjects[0].text = details.objectDetails[number].name;
         gameDetailObjects[1].text = details.objectDetails[number].s1;
@@ -78,6 +84,19 @@ public class PreGameManager : MonoBehaviour
     private IEnumerator StartScheduleGamePlay()
     {
         yield return new WaitForSeconds(0.5f);
-        gamePlayPage.SetActive(true);
+        //gamePlayPage.SetActive(true);
+        if (numberOfSelectedGame == 0)
+        {
+            gamePages[0].SetActive(true);
+        }
+        else
+        {
+            gamePages[1].SetActive(true);
+        }
+    }
+
+    public void OpenEndLink()
+    {
+        Application.OpenURL("http://mfaxyz.ir/");
     }
 }
