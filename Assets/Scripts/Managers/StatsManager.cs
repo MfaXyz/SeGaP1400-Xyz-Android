@@ -27,7 +27,7 @@ public class StatsManager : MonoBehaviour
 
         #region Speed Value
         _speedPercent = (int)preGameManager.topScore;
-        _speedPercent = (_speedPercent * 100 / 180);
+        _speedPercent = (_speedPercent * 100 / 114);
 
         var toFloat = (float)_speedPercent / 100;
         foreach (var x in barSpeedImages)

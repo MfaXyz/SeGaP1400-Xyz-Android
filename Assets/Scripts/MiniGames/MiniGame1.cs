@@ -19,6 +19,7 @@ public class MiniGame1 : MonoBehaviour
     public string[] waveTexts;
     public RTLTextMeshPro waveText;
     public GameObject[] wavesObj;
+    public AudioManager audioManager;
 
     [Header("EndPageV&C")] 
     public PreGameManager preGameManager;
@@ -59,10 +60,6 @@ public class MiniGame1 : MonoBehaviour
         else if (time <= 0 && !timeOver)
         {
             timeOver = true;
-            foreach (var t in btns)
-            {
-                t.interactable = false;
-            }
             switch (waveNumber)
             {
                 case 0:
@@ -101,6 +98,7 @@ public class MiniGame1 : MonoBehaviour
         if (healthNumber > 1)
         {
             healthNumber -= 1;
+            audioManager.sources[5].Play();
             healthText.text = healthNumber.ToString(CultureInfo.InvariantCulture) + " :ﯽﺘﻣﻼﺳ";
             if (type)
             {
@@ -119,6 +117,7 @@ public class MiniGame1 : MonoBehaviour
 
     private void EndGame()
     {
+        audioManager.sources[0].Play();
         if (preGameManager.topScore < scoreNumber)
         {
             PlayerPrefs.SetFloat("topScore", scoreNumber);
@@ -177,19 +176,20 @@ public class MiniGame1 : MonoBehaviour
         switch (waveNumber)
         {
             case 0:
-                scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                 break;
             case 1:
                 if (p1Value == 2)
                 {
                     if (zeroOne)
                     {
-                        scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                        scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                     }
                     else
                     {
                         if (healthNumber > 1)
                         {
+                            audioManager.sources[5].Play();
                             healthNumber -= 1;
                         }
                         else
@@ -200,17 +200,18 @@ public class MiniGame1 : MonoBehaviour
                 }
                 else
                 {
-                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                 }
                 break;
             case 2:
                 var x = zeroOne ? 1 : 0;
                 if (x == leftRightLights)
                 {
-                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                 }
                 else
                 {
+                    audioManager.sources[5].Play();
                     healthNumber -= 1;
                 }
                 imageLights[1].sprite = pictureLights[0];
@@ -220,10 +221,11 @@ public class MiniGame1 : MonoBehaviour
                 var y = zeroOne ? 0 : 1;
                 if (y == leftRightLights)
                 {
-                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                 }
                 else
                 {
+                    audioManager.sources[5].Play();
                     healthNumber -= 1;
                 }
                 imageLights[1].sprite = pictureLights[0];
@@ -234,10 +236,11 @@ public class MiniGame1 : MonoBehaviour
                 
                 if (z == leftRightLights)
                 {
-                    scoreNumber += Mathf.Abs((float)Math.Round(time, 2));
+                    scoreNumber += Mathf.Abs((float)Math.Round(time, 1));
                 }
                 else
                 {
+                    audioManager.sources[5].Play();
                     healthNumber -= 1;
                 }
                 imageLights[1].sprite = pictureLights[0];
@@ -270,7 +273,7 @@ public class MiniGame1 : MonoBehaviour
         timeOver = false;
         foreach (var t in btns)
         {
-            t.interactable = false;
+            t.interactable = true;
         }
 
         if (cycleIndex1 < cycleTime1.Length - 1)
@@ -343,6 +346,4 @@ public class MiniGame1 : MonoBehaviour
         time = cycleTime1[cycleIndex1];
         decreaseTime = true;
     }
-
-
 }
